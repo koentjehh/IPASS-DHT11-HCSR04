@@ -7,7 +7,7 @@ int main()
 	auto trig_pin = target::pin_out( ::target::pins::d8 );
         auto echo_pin = target::pin_in ( ::target::pins::d9 );
 	
-	HCSR04 HCSR04_sensor(trig, echo);
+	HCSR04 HCSR04_sensor( trig, echo );
 	
 	int distance;
 

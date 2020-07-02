@@ -1,4 +1,4 @@
-# library for DHT11 & HC-SR04
+# Library for DHT11 & HC-SR04
  This repository contains:  
  - Libraries for the DHT11 and HC-SR04 sensors (with example code).  
  - An application 'Greenhouse monitor' built with the two libraries.  

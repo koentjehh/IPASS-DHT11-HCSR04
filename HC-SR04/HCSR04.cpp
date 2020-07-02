@@ -6,11 +6,11 @@ void HCSR04::trig_send()
 	trig_pin.flush();
 	hwlib::wait_us(2);
 
-    trig_pin.write(1); 
+    	trig_pin.write(1); 
 	trig_pin.flush();
-    hwlib::wait_us(10);
+   	hwlib::wait_us(10);
 	
-    trig_pin.write(0); 
+   	trig_pin.write(0); 
 	trig_pin.flush();
 }
 

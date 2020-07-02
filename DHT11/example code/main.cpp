@@ -12,7 +12,7 @@ int main( void )
 		
 		DHT11_sensor.start_and_read(); // the sensor is started and the data will be collected
 		
-		int temperature = DHT11_sensor.temperature(); // obtain the collected temperature data
+		int temperature = DHT11_sensor.temperature(); // obtain the collected temperature data (in degrees Celsius)
 		int humidity 	= DHT11_sensor.humidity();    // obtain the collected humidity data
 		
 		hwlib::cout << "Temperature: " << temperature << "*C\n"

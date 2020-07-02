@@ -27,7 +27,6 @@ void DHT11::start_and_read()
 	{
 		for( int byte= 0; byte < 7; byte++ )
 		{
-			
 			hwlib::wait_us(50); 
 			
 			if( data_pin.read() == 0 )

@@ -15,8 +15,8 @@ int main( void )
 		int temperature = DHT11_sensor.temperature();
 		int humidity 	= DHT11_sensor.humidity();
 		
-		hwlib::cout << "T: " << temperature << "*C\n"
-					<< "H: " << humidity	<< "%\n";
+		hwlib::cout << "Temperature: " << temperature << "*C\n"
+			    << "humidity   : " << humidity    << "%\n";
 		
 		hwlib::wait_ms(5000); // to get accurate results check every 5 seconds max.
 	}

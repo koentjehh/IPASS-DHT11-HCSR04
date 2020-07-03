@@ -8,3 +8,5 @@
  
  Note that these libraries require the 'hwlib' library to work. 
  Available via: https://github.com/wovo/hwlib
+ 
+ This repo and its contents fall under the boost license.

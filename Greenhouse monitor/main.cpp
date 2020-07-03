@@ -66,11 +66,11 @@ int main()
 		
 		// demo view for terminal:
 		hwlib::cout << " =========================\n"
-					<< "  | Temperature: " << temp  << "*C\t|\n"
-					<< "  | Humidity   : " << humid << "% \t|\n"
-					<< "  | Window open: " << window_status << "\t|\n"  
-					<< "  | Distance   : " << distance << "CM\t|\n"
-					<< " =========================\n\n";
+			    << "  | Temperature: " << temp  << "*C\t|\n"
+			    << "  | Humidity   : " << humid << "% \t|\n"
+			    << "  | Window open: " << window_status << "\t|\n"  
+		            << "  | Distance   : " << distance << "CM\t|\n"
+		            << " =========================\n\n";
 		
 		oled( temp, humid, window_status, distance );
 

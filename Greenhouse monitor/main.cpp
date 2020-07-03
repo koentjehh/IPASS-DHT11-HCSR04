@@ -46,7 +46,7 @@ int main()
 	hwlib::wait_ms( 1000 ); // 1 second wait to enter stable state (DHT11)
 	
 	auto trig_pin = target::pin_out( target::pins::d8 );
-    auto echo_pin = target::pin_in ( target::pins::d9 );
+        auto echo_pin = target::pin_in ( target::pins::d9 );
 	auto data_pin = target::pin_in_out( target::pins::d7 );
 
 	DHT11 DHT11_sensor( data_pin );

@@ -25,7 +25,7 @@ void DHT11::start_and_read()
 
 	for( int byte_index = 0; byte_index < 5; byte_index++ )
 	{
-		for( int byte= 0; byte < 7; byte++ )
+		for( int byte= 0; byte < 7; byte++ ) // kijken of dit compacter gemaakt kan worden/
 		{
 			hwlib::wait_us(50); 
 			

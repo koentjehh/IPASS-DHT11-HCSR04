@@ -5,7 +5,7 @@ namespace target = hwlib::target;
 
 bool is_window_open( int window_distance_cm, int measured_distance )
 {
-	if( measured_distance < window_distance_cm )
+	if( measured_distance > 0 && measured_distance < window_distance_cm )
 	{
 		return 0; // window closed
 	}

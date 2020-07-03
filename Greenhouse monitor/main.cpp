@@ -53,8 +53,6 @@ int main()
 	
 	HCSR04 HCSR04_sensor( trig_pin, echo_pin );
 	
-	int distance;
-
 	while( true )
 	{
 		DHT11_sensor.start_and_read();
@@ -62,7 +60,7 @@ int main()
 		int temp  = DHT11_sensor.temperature();
 		int humid = DHT11_sensor.humidity();
 		
-		distance = HCSR04_sensor.distance_in_cm();
+		int distance = HCSR04_sensor.distance_in_cm();
 		
 		bool window_status = is_window_open( 10, distance );
 		
